@@ -11,7 +11,7 @@ import "./assets/css/main.css";
 function App() {
 const pages = ['records', 'persons'];
   return (
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Navbar pages={pages}/>
         <Routes>
           <Route path='/' element={<Home/>}/>
