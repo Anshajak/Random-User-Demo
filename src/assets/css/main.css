@@ -1,0 +1,118 @@
+#root{
+    z-index: 4;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+body{
+    background-color:#fff;
+}
+iframe{
+    z-index:0!important;
+}
+.bg-dark {
+    background-color: #3c2e4c!important;
+}
+.container{
+    max-width: 980px;
+}
+.nav-link{
+    padding: 0;
+    font-size: 12px;
+}
+.display-5{
+    color:white;
+    font-style: italic;
+    font-family: cursive;
+}
+.lead{
+    color: #c7c0c0;
+    padding-top: 20px;
+}
+
+.accd{
+    color:white;
+}
+
+
+input{
+    background-color:transparent!important;
+}
+.h5d{
+    color: white;
+    font-size: 21px;
+    font-style: italic;
+    font-family: cursive;
+}
+ label{
+    color: white;
+    font-size: 16px;
+}
+.formInput{
+    color: white!important;
+    border: 3px solid #f9f9f97a!important;
+    border-radius: 6px!important;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #a3a3a3;
+}
+.btn-outline-primary {
+    color: #fff;
+    background-color: #ffffff30;
+    border-color: #a3a3a3;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+h1,h2,h3,h4,h5{
+    color:white;
+}
+a{
+    font-size: 14px;
+}
+.homeImg{
+        width: 100%;
+        height: 50%;
+        padding : .1rem;
+        border-radius: 10px;
+}
+.homeImg:hover {
+    box-shadow : .3em .3em .5em rgba(0,0,0, .4);
+}
+.css-vtdehq-MuiTableCell-root, .css-dsuxgy-MuiTableCell-root{
+    border-bottom:none!important;
+    border-top: 1px solid rgba(224, 224, 224, 1);
+}
+table{
+    border: 3px solid #2d2d2d;
+    border-radius: 26px;
+}
+.css-vj1n65-MuiGrid-root {
+    font-size: 16px;
+}
+.MuiCardMedia-root{
+    margin-top: 10px!important;
+    margin:auto;
+    width: 100px!important;
+    height: 100px!important;
+    border-radius: 50%;
+    background: white;
+}
+.MuiButtonBase-root:hover{
+    filter: drop-shadow(2px 4px 6px black);
+}
+#inputcard{
+    filter: none;
+}
+.MuiPaper-root{
+    width: fit-content;
+    text-align: center;
+    min-width: 200px;
+    border-radius: 15px!important;
+}
+.MuiTypography-root{
+    font-size:20px!important;
+}

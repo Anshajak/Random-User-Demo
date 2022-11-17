@@ -1,0 +1,99 @@
+.data-area {
+    margin: 0 auto;
+    width: 95%;
+}
+thead>tr>th {
+    font-size: 16px!important;
+    font-weight:700!important;
+    color: white!important;
+    text-transform: uppercase!important;
+}
+.table td, .table th {
+    padding: 14px 5px!important;
+}
+tbody>tr>th,tbody>tr>td {
+    font-weight:600!important;
+    font-size: 14px!important;
+    color: black!important;
+    vertical-align: inherit!important;
+}
+.navBtn{
+    font-size: 15px;
+    font-weight: 800;
+    margin: 0 8px;
+    border-radius: 10px 0;
+    background: #3c2e4c;
+    color: white;
+    width: 75px;
+    padding: 2px;
+}
+.navBtn:hover{
+    
+    background: #f2f2f2;
+    color: #3c2e4c;
+    box-shadow: 5px 5px 10px #3c2e4c;
+}
+.rbody{
+    background-color:white!important;
+}
+.name-cell{
+    text-transform: capitalize;
+    background-color:lightskyblue;
+}.datatable .col {
+    cursor: pointer;
+    background-color:#50366d;
+    color: white;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(229 225 234);
+}
+tr:hover{
+    background-color:#cda7f9!important;
+}
+.datatable .col .pointer:after {
+    font-size: 80%;
+    content: "";
+    margin-right: 18px;
+}
+
+.datatable .col .pointer:hover:after {
+    font-size: 80%;
+    content: "🔻";
+    margin-right: 0;
+}
+
+.navin{
+    padding: 0 15px!important;
+    border: 1px solid!important;
+    border-radius: 20px 0 0 20px!important;
+    height: 28px!important;
+    width: 180px!important;
+}
+.navbar-collapse {
+    margin: 0 auto;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.search-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}/*
+.searchbox{
+    margin: auto 5px auto auto;
+}*/
+.searchbox button{
+        padding: 2px 10px;
+    border: 1px solid black;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    font-size: 16px;
+    background-color: #b18cdc;
+
+}
+.searchbox button:hover {
+    color:white;
+    background-color: #865cb6;
+}
